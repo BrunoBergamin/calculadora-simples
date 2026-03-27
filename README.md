@@ -1,10 +1,12 @@
 # Calculadora Simples em Java
 
+Status: projeto de pratica em Java puro.
+
 Aplicacao basica em Java com interface grafica via `JOptionPane` para realizar quatro operacoes matematicas: soma, subtracao, multiplicacao e divisao.
 
 ## Visao geral
 
-Este projeto foi criado para treinar conceitos fundamentais da linguagem Java de forma pratica:
+Este projeto representa um exercicio introdutorio para praticar logica e estrutura de decisao em Java. O foco aqui e aprender, testar e entender bem o fluxo do programa.
 
 - entrada de dados
 - estrutura condicional
@@ -58,10 +60,18 @@ java -cp out program.Main
 
 ## O que foi praticado
 
+- Java puro, sem bibliotecas externas
 - uso de `char` para representar a operacao escolhida
 - estrutura `switch` para controlar o fluxo
 - validacoes antes de executar a conta
 - mensagens para feedback imediato ao usuario
+
+## Limitacoes atuais
+
+- o projeto trabalha em um unico arquivo
+- nao ha historico de operacoes
+- nao ha interface com botoes, apenas caixas de dialogo
+- o objetivo principal e pratica de base, nao produto final
 
 ## Melhorias futuras
 
